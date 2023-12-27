@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.SideMenuAndPageContent{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.05) ;
+}
+.SideMenu{
+    height: 100%;
+    width: 15%;
+    background-color:rgb(236, 240, 248);
+.ant-menu-item-icon{
+    margin-right: 10px;
+}
+
+}
+.BottomMenu {
+    background-color:rgb(236, 240, 248);
+    margin-top: 140% !important;
+    border-top: 0.5px solid #dddddd;
+    font-weight: bold;
+}
+.SideMenuVertical{
+    border-top: 0.5px solid #dddddd;
+    height: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    background-color:rgb(236, 240, 248);
+}
+.PageContent{
+    padding-left: 12px;
+}
+
+  
